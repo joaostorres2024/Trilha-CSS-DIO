@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  color: #022e75;
+}
+
+.container {
+  background-image: url(https://github.com/digitalinnovationone/trilha-css-desafio-01/blob/main/assets/images/banner.png?raw=true);
+  background-color: rgb(0, 7, 15);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 500px;
+}
+
+.flex {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#cssimage {
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+#text1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  background: linear-gradient(to bottom, #0a439e, #007cf7);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+#p_text1 {
+  margin-bottom: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 40px;
+  border-color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 250px;
+  height: 50px;
+  color: white;
+  background-color: rgba(240, 248, 255, 0);
+}
+
+.container2 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  width: 100vw;
+  height: 500px;
+  background-color: rgb(0, 7, 15);
+}
+
+.text2 {
+  background: linear-gradient(to bottom, #0a439e, #007cf7);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bolder;
+  font-size: 19px;
+  line-height: 100px;
+}
+
+.text3 {
+  margin-bottom: 30px;
+}
+
+.text4 {
+  line-height: 30px;
+}
+
+span {
+  color: #0a439e;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0a439e;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.modules {
+  padding-block: 2px;
+  padding-inline: 30px;
+  border-left-width: 20px;
+  background-color: rgb(21, 21, 21);
+  font-size: large;
+  margin-bottom: 10px;
+  line-height: 50px;
+  border-radius: 50px;
+}
+
+.modules:hover {
+  border: 1px solid #007cf7;
+  cursor: default;
+}
+
+.container3 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  background-color: rgb(0, 7, 15);
+  width: 100vw;
+  height: 700px;
+}
+
+#text5 {
+  letter-spacing: 4px;
+  background: linear-gradient(to bottom, #0a439e, #007cf7);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#desafio {
+  margin-bottom: 20px;
+}
+
+footer {
+  background: linear-gradient(rgb(0, 7, 15), rgb(39, 39, 39));
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100vw;
+  height: 100px;
+}
