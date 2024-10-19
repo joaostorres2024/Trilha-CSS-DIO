@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="icon"
+      href="https://raichu-uploads.s3.amazonaws.com/logo_digital-innovation-one_MlayUW.png"
+    />
+    <title>Trilha de CSS - DIO</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="flex">
+          <img
+            id="cssimage"
+            src="https://github.com/digitalinnovationone/trilha-css-desafio-01/blob/main/assets/images/logo.png?raw=true"
+            alt="CSS Image"
+          />
+          <h1 id="text1">TRILHA CSS DA DIO</h1>
+          <p id="p_text1">
+            A nova trilha de CSS da DIO está disponível. Acesse já e aprenda<br />
+            do zero como desenvolver sites profissionais
+          </p>
+          <button>QUERO ME INSCREVER</button>
+        </div>
+      </div>
+      <hr />
+      <div class="container2">
+        <div class="text2">
+          <h1 id="text2">O QUE VOCÊ VAI APRENDER?</h1>
+        </div>
+        <div class="text3">
+          <p>
+            Temos 3 módulos recheados de conteúdos do básico ao avançado para
+            que você aprenda a desenvolver <br />
+            sites profissionais utilizando somente HTML e CSS: sem nenhuma
+            biblioteca ou framework a mais
+          </p>
+        </div>
+        <div class="text4">
+          <p class="modules">
+            <span>Módulo 01:</span> primeiros passos com CSS
+          </p>
+          <p class="modules">
+            <span>Módulo 02:</span> trabalhando com layouts no CSS
+          </p>
+          <p class="modules">
+            <span>Módulo 03:</span> refinando os estilos CSS das nossas páginas
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="container3">
+        <h1 id="text5">
+          EVOLUA E ENCARE NOVOS DESAFIOS<br />
+          PROFISSIONAIS
+        </h1>
+        <img
+          src="https://github.com/digitalinnovationone/trilha-css-desafio-01/blob/main/assets/images/professional-challenges.png?raw=true"
+          alt=""
+          id="desafio"
+        />
+        <p>
+          Junte-se ao nosso ecossistema e transforme o mundo com a gente! Todos
+          os dias dezenas de empresas<br />
+          acessam a nossa plataforma em busca dos talentos mais criativos,
+          dinâmicos e colaborativos, além do<br />
+          conhecimento técnico. A nossa missão é te preparar para que você
+          conecte-se com as melhores <br />
+          oportunidades.
+        </p>
+      </div>
+    </main>
+    <hr />
+    <footer>
+      <img
+        src="https://github.com/digitalinnovationone/trilha-css-desafio-01/blob/main/assets/images/dio-logo.png?raw=true"
+        alt=""
+      />
+    </footer>
+  </body>
+</html>
